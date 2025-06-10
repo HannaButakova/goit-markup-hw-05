@@ -502,6 +502,7 @@ button {
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
+  padding: 72px 24px 24px 24px;
 
   transform: translate(-50%, -50%);
 
@@ -549,4 +550,14 @@ button {
   border: none;
   background-color: #404bbf;
   fill: #ffffff;
+}
+
+.modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
