@@ -516,6 +516,9 @@ button {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
+
+/*clouse*/
+
 .close {
   border-radius: 50%;
   background-color: #e7e9fc;
@@ -546,6 +549,8 @@ button {
   fill: #ffffff;
 }
 
+/*paragraph*/
+
 .modal-text {
   font-weight: 500;
   font-size: 16px;
@@ -556,7 +561,7 @@ button {
   margin-bottom: 16px;
 }
 
-/*fotm*/
+/*form*/
 .form-modal {
   margin-bottom: 8px;
 }
