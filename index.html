@@ -477,22 +477,60 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form action=""></form>
+
         <form class="form">
           <div class="form-modal">
-            <label for="user-name" class="form-label">
-              <span class="label-text">Name</span>
-              <input
-                type="text"
-                class="form-name"
-                name="user-name"
-                id="user-name"
-              />
+            <label for="user-name" class="form-label"
+              >Name
+              <div class="content-name">
+                <input
+                  class="text-name"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                />
+                <svg class="icon-person" width="18" height="24">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
             </label>
-            <div class="content-name">
-              <input class="text-name" type="text" />
-              <svg class="icon-person" width="18" height="24">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
+            <label for="user-name" class="form-label"
+              >Phone
+              <div class="content-name">
+                <input
+                  class="text-name"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                />
+                <svg class="icon-person" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+            <label for="user-name" class="form-label"
+              >Email
+              <div class="content-name">
+                <input
+                  class="text-name"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                />
+                <svg class="icon-person" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
+            </label>
+            <div class="comment">
+              <label class="form-comment" for="user-comment">Comment</label>
+              <textarea
+                class="text-comment"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Text input"
+              ></textarea>
             </div>
           </div>
         </form>
