@@ -541,11 +541,14 @@ button {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close:hover,
-.close:focus {
+.close: hover,
+.close: focus {
   border: none;
   background-color: #404bbf;
-  fill: #ffffff;
+}
+.icon-close:hover,
+.icon-close:focus {
+  fill: #fff;
 }
 
 /*paragraph*/
@@ -595,8 +598,11 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.content-name:hover,
-.content-name:focus {
+.text-name:focus {
+  border-color: #4d5ae5;
+}
+
+.text-name:focus + .icon-person {
   fill: #4d5ae5;
 }
 
@@ -617,9 +623,6 @@ button {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.text-comment :focus {
-  border-color: #4d5ae5;
 }
 
 .form-comment {
