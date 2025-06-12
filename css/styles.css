@@ -547,8 +547,8 @@ button {
   background-color: #404bbf;
 }
 
-.clouse:hover + .icon-close,
-.clouse:focus + .icon-close {
+.clouse:hover .icon-close,
+.clouse:focus .icon-close {
   fill: #ffffff;
 }
 
