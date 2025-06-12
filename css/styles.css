@@ -546,10 +546,6 @@ button {
   border: none;
   background-color: #404bbf;
 }
-.icon-close:hover,
-.icon-close:focus {
-  fill: #fff;
-}
 
 /*paragraph*/
 .modal-text {
@@ -633,7 +629,9 @@ button {
   display: block;
   margin-bottom: 4px;
 }
-.checkbox {
+
+/*checkbox*/
+.checkbox-fonm {
   margin-bottom: 24px;
 }
 .form-accept {
@@ -642,7 +640,7 @@ button {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.privacy-policy {
+.check-element {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -654,9 +652,17 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .link-privacy-policy {
   color: #4d5ae5;
+}
+
+.modal-check:checked + .form-accept .check-element {
+  border-radius: 2px;
+  background-color: #404bbf;
+  border: 1px solid #404bbf;
+  fill: #f4f4fd;
 }
 
 .button-send {
