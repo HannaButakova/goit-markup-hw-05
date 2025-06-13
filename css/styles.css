@@ -715,7 +715,8 @@ button {
 }
 .link-privacy-policy {
   color: #4d5ae5;
-  
+  text-decoration: underline;
+  margin-left: 4px;
 }
 
 .visually-hidden:checked + .form-accept .check-element {
