@@ -152,6 +152,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -244,7 +245,12 @@ button {
   margin: 0 auto;
 }
 .one-title {
-  margin-bottom: 8px;
+ margin-bottom: 8px;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ color: #2e2f42;
 }
 
 .project-name {
@@ -434,7 +440,7 @@ button {
   align-items: baseline;
 }
 .column-two {
-  margin-right: 120px;
+  margin-right: auto;
 }
 .text-social-media {
   font-weight: 500;
@@ -484,9 +490,12 @@ button {
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
   border: 1px solid #ffffff; 
 }
+.email-form:placeholder {
+color: #fff;
+}
+
 .E-mail {
   color #ffffff; 
 }
@@ -730,6 +739,7 @@ button {
   display: block;
   min-width: 169px;
   height: 56px;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
